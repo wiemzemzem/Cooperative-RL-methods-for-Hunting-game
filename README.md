@@ -20,7 +20,7 @@ In this paper, the fully cooperative multi-agent system is studied, in which all
 4)	Add  simbad.jar and Chartdirector.jar to the current project.
 5)	Run the class MyProg, the main class of the project.
 
-## Description of principle classes:
+## Description of principle classes
 A brief description of main classes is described below
 •	Class MyProg: it is the main class of the project. Here, we creates the environment by calling the class MyEnv  and personalize its size.
 •	Class MyEnv: Here, we can personalize the number and starting positions of learning agents  (class MyRobot), the shape and positions of obstacles (class Box) and the number and initial positions of the prey (class CherryAgent). We can also modify the number of learning experiences to be conducted.
