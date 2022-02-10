@@ -7,11 +7,14 @@ A new discrete environment is implemented here with several new distributed and 
 *	Two new action selection strategies: The TM maxNextQ Policy and The the TM maxNextQ LRVS Policy.
 *	A new distributed reinforcement learning approach for two agent systems. 
 
-<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
+The testing environment is a 10 × 10 grid world which is initially unknown, surrounded by walls and contains obstacles. In this maze, the predators are the learners. They have to coordinate themselves in order to capture a single prey. At each time step, they are able to move in four directions: north (Up), south (Down), east (Right) and west
+(Left) or stand still (NoMove). They can’t share the same position and can’t cross obstacles. The environment is temporary dynamic. As described in the foolowing figure, it is initially in the form (a) After 1000 episodes (captures), it changes to the the form (b). The red ball refers to the prey. This latter is captured when the vertically or horizontally neighboring cells are occupied by the two predators. Then, predators are relocated at the top right corner of the maze and the next episode starts.
 
+<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
 This project is the codebase for the paper "Cooperative Multi-Agent Systems Using Distributed Reinforcement Learning Techniques" in KES 2018, located at https://www.sciencedirect.com/science/article/pii/S1877050918312626. The usage code below makes sure you can reproduce almost same results as shown in the paper.
 
 In this paper, the fully cooperative multi-agent system is studied, in which all of the agents share the same common goal. The main difficulty in such systems is the coordination problem: how to ensure that the individual decisions of the agents lead to jointly optimal decisions for the group? Firstly, a multi-agent reinforcement learning algorithm combining traditional Q-learning with observation-based teammate modeling techniques, called TM Qlearning, is presented and evaluated. Several new cooperative action selection strategies are then suggested to improve the multi-agent coordination and accelerate learning, especially in the case of unknown and temporary dynamic environments. The effectiveness of combining TM Qlearning with the new proposals is demonstrated using the hunting game.
+
 
 ## Setup
 1)	Install Java3d, you can get it here https://www.oracle.com/java/technologies/javase/java-3d.html
