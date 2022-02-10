@@ -7,6 +7,7 @@ This project is an improved version of Simbad Simulator (http://simbad.sourcefor
 A new discrete environment is implemented here with several new distributed and cooperative multi-agent reinforcement learning methods. We principally propose:
 *	Two new action selection strategies: The TM maxNextQ Policy and The the TM maxNextQ LRVS Policy.
 *	A new distributed reinforcement learning approach for two agent systems. 
+
 The testing environment is a 10 × 10 grid world which is initially unknown, surrounded by walls and contains obstacles. In this maze, the predators are the learners. They have to coordinate themselves in order to capture a single prey. At each time step, they are able to move in four directions: north (Up), south (Down), east (Right) and west
 (Left) or stand still (NoMove). They can’t share the same position and can’t cross obstacles. The environment is temporary dynamic. As described in the following figure, it is initially in the form (a). After 1000 episodes (captures), it changes to the the form (b). The red ball refers to the prey. This latter is captured when the vertically or horizontally neighboring cells are occupied by the two predators. Then, predators are relocated at the top right corner of the maze and the next episode starts.
 <img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
