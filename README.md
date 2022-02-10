@@ -5,4 +5,10 @@ we propose new cooperative RL methods for Hunting game
 https://github.com/wiemzemzem/Cooperative-RL-methods-for-Hunting-game/blob/main/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png
 
 
-<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="My cool logo"/>
+<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
+
+<img src="/Cooperative-RL-methods-for-Hunting-game/images/learningIteration.png" alt="learningIteration"/>
+
+<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
+
+<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
