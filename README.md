@@ -5,7 +5,7 @@ A new discrete environment is implemented here with several new distributed and 
 >	Two new action selection strategies: The TM maxNextQ Policy and The the TM maxNextQ LRVS Policy.
 >	A new distributed reinforcement learning approach for two agent systems. 
 
-
+This site was built using [GitHub Pages]([https://pages.github.com/](url)).
 
 <img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
 
