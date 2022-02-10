@@ -22,16 +22,16 @@ In this paper, the fully cooperative multi-agent system is studied, in which all
 
 ## Description of principle classes
 A brief description of main classes is described below
-•	Class MyProg: it is the main class of the project. Here, we creates the environment by calling the class MyEnv  and personalize its size.
-•	Class MyEnv: Here, we can personalize the number and starting positions of learning agents  (class MyRobot), the shape and positions of obstacles (class Box) and the number and initial positions of the prey (class CherryAgent). We can also modify the number of learning experiences to be conducted.
-•	Class MyDiscreteRobot: it defines the behavior of the learning agents (the predators): the most important method here is performBehavior():void. As we adopt the reinforcement learning approach, the method performBehavior() describes an iteration of the learning algorithm:
-o	Choose the action to perform: many action selection strategies are implemented and are located in the LearningAgent class.
-o	displace the learning agent: the environment is discrete and only five actions are possible at each time steps: UP, DOWN, RIGHT, LEFT and NoMove. 
-o	acquisition of reward and next state
-o	updating the value function Q and the teammate model P using methods update_Table_Q():void and update_Table_P(): void of the  LearningAgent class, respectively.
-•	Class LearningAgent: here, we mainly define tables P and Q, their updating methods and the action selection methods.
+*	Class MyProg: it is the main class of the project. Here, we creates the environment by calling the class MyEnv  and personalize its size.
+*	Class MyEnv: Here, we can personalize the number and starting positions of learning agents  (class MyRobot), the shape and positions of obstacles (class Box) and the number and initial positions of the prey (class CherryAgent). We can also modify the number of learning experiences to be conducted.
+*	Class MyDiscreteRobot: it defines the behavior of the learning agents (the predators): the most important method here is performBehavior():void. As we adopt the reinforcement learning approach, the method performBehavior() describes an iteration of the learning algorithm:
+**	Choose the action to perform: many action selection strategies are implemented and are located in the LearningAgent class.
+**	displace the learning agent: the environment is discrete and only five actions are possible at each time steps: UP, DOWN, RIGHT, LEFT and NoMove. 
+**	acquisition of reward and next state
+**	updating the value function Q and the teammate model P using methods update_Table_Q():void and update_Table_P(): void of the  LearningAgent class, respectively.
+*	Class LearningAgent: here, we mainly define tables P and Q, their updating methods and the action selection methods.
 •	Class MersenneTwister: This class implements a powerful pseudo-random number generator developed by Makoto Matsumoto and Takuji Nishimura during 1996-1997. For more details, you can see https://commons.apache.org/proper/commons-math/javadocs/api-3.3/org/apache/commons/math3/random/MersenneTwister.html
-•	CLass LearningGraph: we use the ChartDirector library to generates the learning graphs showing the results of conducted experimentations. These graphs principally show the average iterations or collisions per episode.
+*	CLass LearningGraph: we use the ChartDirector library to generates the learning graphs showing the results of conducted experimentations. These graphs principally show the average iterations or collisions per episode.
 
 ## Results
 
