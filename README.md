@@ -9,6 +9,6 @@ https://github.com/wiemzemzem/Cooperative-RL-methods-for-Hunting-game/blob/main/
 
 <img src="/Cooperative-RL-methods-for-Hunting-game/images/learningIteration.png" alt="learningIteration"/>
 
-<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
+<img src="/Cooperative-RL-methods-for-Hunting-game/images/collision.png" alt="collision"/>
 
-<img src="/Cooperative-RL-methods-for-Hunting-game/images/Testing_environment.png" alt="Testing_environment"/>
+<img src="/Cooperative-RL-methods-for-Hunting-game/images/collisionAfterConvergence.png" alt="collisionAfterConvergence"/>
